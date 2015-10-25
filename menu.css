@@ -1,0 +1,51 @@
+#home a{
+    font-family: 'FFF TUSJ';
+    font-size: 1.5em;
+    border-right: solid ivory 1px;
+    padding-right: 2%;
+}
+article {
+    background: rgba(255,255,240, .7);
+    color: black;
+    margin-top: 6%;
+    padding: 16%;
+    padding-top: 0;
+}
+p {
+    text-align: justify;
+}
+
+h2 {
+    color: rgb(245, 91, 134);
+}
+h3 {
+    
+    color: rgb(245, 91, 134);
+    padding: 5%;
+    padding-left: 0;
+    text-align: center;
+font-size: 2em;
+    width: 160%;
+    margin-left: -28%;
+    background: ivory;
+
+}
+
+nav {
+    background-image: url(images/nav_szines.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 0%;
+    position: fixed;
+    width: 100%;
+    text-align: left;
+    padding-top: 4%;
+}
+nav li {
+    margin: 1%;
+}
+nav li a {
+    color: yellow;
+}
+    

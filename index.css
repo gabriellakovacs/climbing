@@ -1,0 +1,55 @@
+h1 {
+	font-size: 6em;
+    padding: 10%;
+    padding-left: 14%;
+}
+nav ul {
+    background: rgba(255, 255, 0, .6);
+    padding-bottom: 1%;
+    padding-top: 1.5%;
+    text-align: center;
+    margin: 0;
+}
+
+nav li  {
+    margin: 3%;
+    margin-top:0;
+    margin-bottom: 0;
+}
+
+article {
+    padding: 14%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    background: ivory;
+    color: steelblue;
+    text-align: justify;
+    
+}
+
+#numbers {
+    padding: 14%;
+    padding-bottom: 16%;
+}
+
+#numbers div {
+    display: inline-block;
+    width: 31%;
+    text-align: center;
+    border: solid yellow 2px;
+    color: ivory;
+    position: relative;
+    
+}
+
+#numbers h2 {
+    font-size: 3em;
+    display: inline;
+    
+}
+
+#numbers p {
+    display: inline;
+    font-weight: 700;
+    
+}
