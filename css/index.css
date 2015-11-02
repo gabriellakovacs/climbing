@@ -44,10 +44,18 @@ div.container-fluid {
 }
 
 #numbers div {
+    padding: 0;
     text-align: center;
-    border: solid yellow 2px;
+    border: solid rgba(1, 1, 1, 0) 4px;
     color: ivory;
     
+}
+
+#numbers div div{
+    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: solid yellow 2px;
 }
 
 #numbers h2 {
@@ -62,8 +70,8 @@ div.container-fluid {
     
 }
 @media (min-width:992px) and (max-width: 1280px) {
-    #numbers div {
-        height: 100px;
+    #numbers div div{
+        height: 120px;
         
     }
 
