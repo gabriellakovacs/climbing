@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+#indexH1 {
+font-size: 6em;
+height: 90vh;
+padding-top: 30vh;
+}
+
+nav  {
+    height: 8vh;
+    float: left;
+    position: relative;
+    width: 100%;
+    background: rgba(255, 255, 0, .6);
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    
+}
+
+
+nav ul li{
+    text-align: center;
+}
+
+
+
+article {
+    float: left;
+    padding-top: 18vh;
+    padding-bottom: 18vh;
+    color: steelblue;
+    text-align: justify;
+    background: ivory;  
+  
+}
+
+div.container-fluid {
+    float: left;
+    width: 100%;
+    padding-top: 18vh;
+    padding-bottom: 18vh;
+}
+
+#numbers div {
+    text-align: center;
+    border: solid yellow 2px;
+    color: ivory;
+    
+}
+
+#numbers h2 {
+    font-size: 3em;
+    display: inline;
+    
+}
+
+#numbers p {
+    display: inline;
+    font-weight: 700;
+    
+}
+@media (min-width:992px) and (max-width: 1280px) {
+    #numbers div {
+        height: 100px;
+        
+    }
+
+}

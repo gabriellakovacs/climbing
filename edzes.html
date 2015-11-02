@@ -1,133 +1,187 @@
- <!doctype html>
+<!doctype html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>Spider Club|Edzés</title>
-<meta content="">
-<link rel = "icon" type = "image/x-icon" href="images/favicon.ico">
-<link href="spider.css" rel="stylesheet" type="text/css">
-<link href="menu.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="font.css" type="text/css" charset="utf-8" />
-<link href='https://fonts.googleapis.com/css?family=Montserrat:700,400' rel='stylesheet' type='text/css'>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+        <meta content="">
+
+        <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700&subset=latin-ext' rel='stylesheet' type='text/css'>
+
+        <title>Spider Club|Edzés</title>
+        
+        <link rel = "icon" type = "image/x-icon" href="images/favicon.ico">
 
 
-</head>
-<body id="edzes">
-    
-    <img id="background" src="images/szineskocka.jpg"/>
-    <div class="container">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
 
-    <nav>
-        <ul>
-            <li id="home"><a href="index.html">Spider Club</a></li>
-            <li><a href="kapcsolat.html">Kapcsolat</a></li>
-            <li><a href="edzes.html">Edzés</a></li>
-            <li><a href="tanfolyam.html">Tanfolyam</a></li>
-            <li><a href="turak.html">Túrák</a></li>
-            <li><a href="boulderkupa.html">Boulder kupa</a></li>
-            <li><a href="galeria.html">Galéria</a></li>
+        <link href="css/reset.css" rel="stylesheet" type="text/css">
+        <link href="css/global.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="css/font.css" type="text/css" charset="utf-8" />
+
+    </head>
+    <body>
+        
+        <img id="background" src="images/background.jpg"/>
+        <div id="foreground">
+
+            <!-- Button trigger modal -->
+            <button type="button" class="menu" data-toggle="modal" data-target="#nav">
+              Menu
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="nav" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Menu</h4>
+                  </div><!-- modal-header -->
+                  <div class="modal-body">
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Spider Club</a></li>
+                            <li><a href="kapcsolat.html">Kapcsolat</a></li>
+                            <li><a href="edzes.html">Edzés</a></li>
+                            <li><a href="tanfolyam.html">Tanfolyam</a></li>
+                            <li><a href="turak.html">Túrák</a></li>
+                            <li><a href="galeria.html">Galéria</a></li>
+                            
+                        </ul>
+                    </nav>
+                  </div><!-- modal-body -->
+                </div><!-- modal-content -->
+              </div><!-- modal-dialog -->
+            </div><!-- modal-fade -->
+
+        
+            <h1>Edzés</h1> 
+                
             
-        </ul>
-    </nav>
-        <h2>Edzés</h2> 
-        
-    
-    <article>
-        <h3>Gyerek mászó edzés</h3>
-        
-        <p>
-A gyermekek egészséges mozgató- és idegrendszeri fejlődéséhez elengedhetetlen az ingergazdag környezet, az új mozgásfajták megismerése. Miközben nálunk elsajátíthatják a helyes mászástechnikát és a biztosítás fortélyait, észrevétlenül fejlődik a mozgáskoordinációjuk, javul kondíciójuk, figyelmük, kitartásuk, felelősségtudatuk.
-Ehhez mi szakképzett oktatói hátteret biztosítunk számukra heti két alkalommal, kizárólag a megadott időpontokban.
-        </p>
-        <p>
-A gyerekek biztonsága a legfontosabb számunkra.
-A tökéletes biztosítástechnika elsajátításához feltétlenül szükséges egy bizonyos szintű mentális és fizikai érettség, ezért a 10 éves kor alatti gyermekeknél szükségesnek tartjuk a szülői jelenlétet és segítséget.
-        </p>
-
-        <h4>Időpontok</h4>
-
-        <p>Hétfő, Szerda, Péntek 16:00-17:30ig </p>
+            <article class="container">
+                <h3 class="contentHeading col-sm-8 col-sm-offset-1 col-xs-12 col-xs-offset-0">Gyerek mászó edzés</h3>
+                <div class="row">
+                    <div class="col-md-5 col-md-offset-1">
+                        <p>
+                        A gyermekek egészséges mozgató- és idegrendszeri fejlődéséhez elengedhetetlen az ingergazdag környezet, az új mozgásfajták megismerése. Miközben nálunk elsajátíthatják a helyes mászástechnikát és a biztosítás fortélyait, észrevétlenül fejlődik a mozgáskoordinációjuk, javul kondíciójuk, figyelmük, kitartásuk, felelősségtudatuk.
+                        Ehhez mi szakképzett oktatói hátteret biztosítunk számukra heti két alkalommal, kizárólag a megadott időpontokban.
+                        </p>
+                        <p>
+                        A gyerekek biztonsága a legfontosabb számunkra.
+                        A tökéletes biztosítástechnika elsajátításához feltétlenül szükséges egy bizonyos szintű mentális és fizikai érettség, ezért a 10 éves kor alatti gyermekeknél szükségesnek tartjuk a szülői jelenlétet és segítséget.
+                        </p>
+                    </div>
 
 
-        <h4>Hogyan tudsz csatlakozni az edzésekhez?</h4>
+                    <div class="col-md-5 col-md-offset-1">
+                        <h4 class="firstH">Időpontok</h4>
+                        <p>Hétfő, Szerda, Péntek 16:00-17:30ig </p>
+            
+            
+                        <h4>Hogyan tudsz csatlakozni az edzésekhez?</h4>
+            
+                        <p>Hívd Németh Nórát (06209233511), hogy személyesen megbeszéljétek a feltételeket.</p>
+            
+            
+                        <h4>Költségek</h4>
+            
+                        <p>Az edzéseken csak bérlettel lehet részt venni. A bérleteket kizárólag az adott hónap másodikáig lehet kiváltani.</p>
+                        
+                        <ul>
+                            <li>Heti 1 alkalmas bérlet 4.500Ft/hó </li>
+                            <li>Heti 2 alkalmas bérlet 9.000FT/hó</li>
+                            <li>Heti 3 alkalmas bérlet 13.500FT/hó</li>
+                        </ul>
+            
+                        <p>A bérlet csak az előre megadott napon (napokon) érvényes. ( pl. hétfő vagy szerda-péntek) </p>
+            
+            
+                        <h4>Amit hozni kell</h4>
+                        <ul>
+                            <li>laza sportruházat </li>
+                            <li>tiszta torna- vagy sportcipő (Kötelező)</li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+               
 
-        <p>Hívd Németh Nórát (06209233511), hogy személyesen megbeszéljétek a feltételeket.</p>
 
+            <article class="container">
+                <h3 class="contentHeading col-sm-8 col-sm-offset-1 col-xs-12 col-xs-offset-0">Felnőtt edzés</h3>
+                    <div class="row">
+                        <div class="col-md-5 col-md-offset-1">
+                           <h4 class="firstH">Kiknek ajánljuk</h4>
+                           <p>
+                               Az edzéseket azoknak a kezdő illetve már régebb óta mászó személyeknek ajánljuk, akik szeretnék elsajátítani az alapvető mászást elősegítő technikákat, javítani a mozgáskoordinációjukat a falon, korrigálva a rossz beidegződéseket és a mászásra szánt időt szeretnék a leghatékonyabban kitölteni. Ajánljuk továbbá azoknak, akiknek céljaik vannak a mászással és azokat szeretnék tudatosan felkészüléssel elérni a sérülés veszélyét minimálisra csökkentve.
+                           </p>
+                       
+                       
+                           <h4>Miért tartjuk fontosnak</h4>
+                           <p>
+                               Azért tartjuk fontosnak az edző irányításával történő mászást, mert így sokkal könnyebben fény derül az esetleges hibákra és azokat azonnal korrigálni lehet. Valamint az edzés hatékonysága nagyban növelhető, ha az külső irányítással történik, odafigyelve az alapos bemelegítésre, a mászások felépítésére, az erősítés mértékére, a nyújtás-lazítás szakszerű levezénylésére és a pihenő idők betartására. 
+                           </p>
+                        </div>
+                        <div class="col-md-5 col-md-offset-1">
+                            <h4 class="firstH">Edzők, időpontok</h4>
+                            <dl>
+                                <dt>Komondi Csaba „Tódi” </dt>
+                                <dd>Kedd / Csütörtök 
+                                    Turnusok: 13.30 - 16.00ig </dd>
+                                <dt>Mátyás Gábor </dt>
+                                <dd>Hétfő / Szerda
+                                    Turnusok: 17.30-22.00ig  </dd>
+                                <dt>Erdélyi Balázs </dt>
+                                <dd>Kedd / Csütörtök 
+                                    Turnusok: 18.00-21.00ig</dd>
+                            </dl>
 
-        <h4>Költségek</h4>
+                            <h4>Költségek</h4>
+                            <p>
+                                A napijegy vagy bérlet mellé egy edzőkártyát kell vásárolni, ami 10 alkalomra szóló edzésrészvételt jelent, ennek költsége: 5500Ft. 
+                                Az edzőbérlet nem edzőfüggő ezért különböző időpontokban más-más edzőkhöz is be lehet csatlakozni. 
+                            </p>
 
-        <p>Az edzéseken csak bérlettel lehet részt venni. A bérleteket kizárólag az adott hónap másodikáig lehet kiváltani.</p>
-        
-        <ul>
-            <li>Heti 1 alkalmas bérlet 4.500Ft/hó </li>
-            <li>Heti 2 alkalmas bérlet 9.000FT/hó</li>
-            <li>Heti 3 alkalmas bérlet 13.500FT/hó</li>
-        </ul>
+                            <h4>Jelentkezés</h4>
+                            <p>
+                                Keressétek a falmestert és egyeztessetek vele, hogy mikor kinél tudtok edzeni illetve hogy adott szinten melyik edzőnk a legmegfelelőbb számodra.
+                            </p>
+                        </div>
+                </div>
 
-        <p>A bérlet csak az előre megadott napon (napokon) érvényes. ( pl. hétfő vagy szerda-péntek) </p>
-
-
-        <h4>Amit hozni kell</h4>
-        <ul>
-            <li>laza sportruházat </li>
-            <li>tiszta torna- vagy sportcipő (Kötelező)</li>
-        </ul>
-
-       
-        </article>
-    <article>
-        <h3>Felnőtt edzés</h3>
-            <h4>Kiknek ajánljuk</h4>
-            <p>
-    Az edzéseket azoknak a kezdő illetve már régebb óta mászó személyeknek ajánljuk, akik szeretnék elsajátítani az alapvető mászást elősegítő technikákat, javítani a mozgáskoordinációjukat a falon, korrigálva a rossz beidegződéseket és a mászásra szánt időt szeretnék a leghatékonyabban kitölteni. Ajánljuk továbbá azoknak, akiknek céljaik vannak a mászással és azokat szeretnék tudatosan felkészüléssel elérni a sérülés veszélyét minimálisra csökkentve.
-            </p>
-
-
-            <h4>Miért tartjuk fontosnak</h4>
-            <p>
-    Azért tartjuk fontosnak az edző irányításával történő mászást, mert így sokkal könnyebben fény derül az esetleges hibákra és azokat azonnal korrigálni lehet. Valamint az edzés hatékonysága nagyban növelhető, ha az külső irányítással történik, odafigyelve az alapos bemelegítésre, a mászások felépítésére, az erősítés mértékére, a nyújtás-lazítás szakszerű levezénylésére és a pihenő idők betartására. 
-            </p>
-
-            <h4>Edzők, időpontok</h4>
-            <dl>
-                <dt>Komondi Csaba „Tódi” </dt>
-                <dd>Kedd / Csütörtök 
-                    Turnusok: 13.30 - 16.00ig </dd>
-                <dt>Mátyás Gábor </dt>
-                <dd>Hétfő / Szerda
-                    Turnusok: 17.30-22.00ig  </dd>
-                <dt>Erdélyi Balázs </dt>
-                <dd>Kedd / Csütörtök 
-                    Turnusok: 18.00-21.00ig</dd>
-            </dl>
-
-            <h4>Költségek</h4>
-            <p>A napijegy vagy bérlet mellé egy edzőkártyát kell vásárolni, ami 10 alkalomra szóló edzésrészvételt jelent, ennek költsége: 5500Ft. 
-    Az edzőbérlet nem edzőfüggő ezért különböző időpontokban más-más edzőkhöz is be lehet csatlakozni. 
-            </p>
-
-            <h4>Jelentkezés</h4>
-            <p>Keressétek a falmestert és egyeztessetek vele, hogy mikor kinél tudtok edzeni illetve hogy adott szinten melyik edzőnk a legmegfelelőbb számodra.
-            </p>
-
-    </article>
-        
-         <footer itemscope itemtype = "http://schema.org/SportsActivityLocation"> <span itemprop="name">Spider Falmászó és Boulder Klub </span> <address itemprop="address" itemscope itemtype="http://schema.org/postalAddress">
-            <span itemprop="postalCode">1036 </span><span itemprop="addressRegion">Budapest III.</span> <span itemprop="streetAddress">Fényes Adolf u. 19-21./31.épület</span>
-            </address>     
-            Tel.:<span itemprop="telephone">+36 20 5193234</span> 
-            <br>
-            E-mail: <span itemprop="email">info@spiderclub.hu</span>
-            <br>
-            Nyitva-tartás: <span itemprop="openingHours">H-P. 13-23 / Sz-V. 10-22.</span>
-            <br> 
-            <a href="https://www.facebook.com/SportcsarnokFalmaszasBoulder" title="Latogass meg minket facebookon is!" alt="Facebook icon"><img width = "40px" height="40" src="images/fb_icon_w.png" /></a>
-            <a href="https://www.facebook.com/SportcsarnokFalmaszasBoulder" title="Latogass meg minket googleplus-on is!" alt="Google+ icon"><img width = "40px" height="40px" src="images/g+icon_w.png" /></a>
-         <a href="https://vimeo.com/user11011001" title="Latogass meg minket vimeo-n is!" alt="vimeo icon"><img width = "40px" height="40px" src="images/vimeo-icon_w.png" /></a>
+            </article>
+                
+            <footer itemscope itemtype = "http://schema.org/SportsActivityLocation">
+                <span itemprop="name">Spider Falmászó és Boulder Klub </span>
+                <address itemprop="address" itemscope itemtype="http://schema.org/postalAddress">
+                    <span itemprop="postalCode">1036 </span>
+                    <span itemprop="addressRegion">Budapest III.</span> <span itemprop="streetAddress">Fényes Adolf u. 19-21./31.épület</span>
+                </address>     
+                Tel.:<span itemprop="telephone">+36 20 5193234</span> 
+                <br>
+                E-mail: <span itemprop="email">info@spiderclub.hu</span>
+                <br>
+                Nyitva-tartás: <span itemprop="openingHours">H-P. 13-23 / Sz-V. 10-22.</span>
+                <br> 
+                <a href="https://www.facebook.com/SportcsarnokFalmaszasBoulder" title="Latogass meg minket facebookon is!" alt="Facebook icon">
+                    <img width = "40px" height="40" src="images/fb_icon_w.png" />
+                </a>
+                <a href="https://www.facebook.com/SportcsarnokFalmaszasBoulder" title="Latogass meg minket googleplus-on is!" alt="Google+ icon">
+                    <img width = "40px" height="40px" src="images/g+icon_w.png" />
+                </a>
+                <a href="https://vimeo.com/user11011001" title="Latogass meg minket vimeo-n is!" alt="vimeo icon">
+                   <img width = "40px" height="40px" src="images/vimeo-icon_w.png" />
+                </a>
             </footer>
-    
-    
-   </div>
+            
+        </div>
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
     
     </body>
 </html>

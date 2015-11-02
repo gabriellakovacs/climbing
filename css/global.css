@@ -1,0 +1,157 @@
+body {
+    font-family: 'Lato', sans-serif;
+    /*overflow-x: hidden;*/
+    margin: 0;
+    line-height: 2em;
+}
+
+
+
+#background {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    margin: 0;
+}
+
+
+
+#foreground {
+    position: relative;
+    margin: 0;
+}
+
+
+h1 {
+    padding:20vh;
+    color: yellow;
+    font-family: 'FFF TUSJ';
+    font-size: 4em;
+}
+
+
+nav ul {
+    padding-left: 0;
+    margin: 0;
+    
+}
+
+
+nav li  {
+	list-style-type: none;
+	/*display: inline;*/
+	font-size: 1.3em;
+    font-weight: bold;
+	text-transform: lowercase;
+}
+
+nav a {
+    color: white;
+    font-weight: 700;
+}
+
+
+a {
+    color: inherit;
+	font-weight: bold;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    float: left;
+    text-align: center;
+    padding-top: 8%;
+    padding-bottom: 3%;
+    background: rgba(255, 255, 0, .6);
+    font-weight: 700;
+    font-size: 1em;
+    color: black;
+    width: 100%;
+}
+footer a img {
+    display: inline;
+	float: none;
+    margin-top: 2%;
+	margin-left: 0.25em;
+	margin-right: 0.25em;
+    color: grey;
+}
+
+.contentHeading {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: rgba(70,130,180, .6);
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+
+}
+
+.container {
+    padding-top: 18vh;
+    padding-bottom: 18vh;
+    background: ivory;
+    margin-bottom: 28vh;
+    position: relative;
+    color: steelblue;
+}
+
+.container h4{
+    padding-top: 2vh;
+    font-weight: bold;
+    color: orangered;
+
+}
+.container .firstH {
+    padding: 0;
+}
+
+.menu {
+    width: 150px;
+    height: 150px;
+    background: rgba(255, 255, 0, .6);
+    border: none;
+    -webkit-border-radius: 80;
+  -moz-border-radius: 80;
+  border-radius: 80px;
+  border-radius: 5;
+    z-index: 3;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    position: fixed;
+    top: -20px;
+    right: -20px;
+
+}
+.menu:hover {
+    background: rgba(255, 255, 0, .9);
+}
+
+.modal-content {
+    background: rgba(255, 255, 0, .6);
+}
+
+#carousel-tura,  #carousel-edzes{
+    width: 555px;
+    margin:auto;
+}
+
+
+
+@media (max-width: 768px) {
+    nav {
+        height: 100vh;
+
+    }
+    
+
+}
