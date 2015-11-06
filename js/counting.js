@@ -80,15 +80,27 @@
 }(jQuery));
 
 jQuery(function ($) {
-  // custom formatting example
+
   $('#count-number').data('countToOptions', {
 	formatter: function (value, options) {
-	  return value.toFixed(options.decimals).replace(/\B(?=(?:\d{3})+(?!\d))/g, ',');
+	  return value.toFixed(options.decimals);
 	}
   });
   
   // start all the timers
-  $('.timer').each(count);  
+
+  var $section = $('#numbers');
+
+  $(document).bind('scroll', function(ev) {
+        var scrollOffset = $(document).scrollTop();
+        var containerOffset = $section.offset().top - window.innerHeight;
+        if (scrollOffset > containerOffset) {
+            $('.timer').each(count);  
+            // unbind event not to load scrolsl again
+            $(document).unbind('scroll');
+        }
+    });
+  
   
   function count(options) {
 	var $this = $(this);
