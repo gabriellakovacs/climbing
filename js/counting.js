@@ -89,17 +89,34 @@ jQuery(function ($) {
   
   // start all the timers
 
+    function debounce(func, wait, immediate) {
+	var timeout;
+	return function() {
+		var context = this, args = arguments;
+		var later = function() {
+			timeout = null;
+			if (!immediate) func.apply(context, args);
+		};
+		var callNow = immediate && !timeout;
+		clearTimeout(timeout);
+		timeout = setTimeout(later, wait);
+		if (callNow) func.apply(context, args);
+	};
+};
+
   var $section = $('#numbers');
 
-  $(document).bind('scroll', function(ev) {
+  $(document).bind('scroll', debounce(function(ev) {
         var scrollOffset = $(document).scrollTop();
         var containerOffset = $section.offset().top - window.innerHeight;
         if (scrollOffset > containerOffset) {
             $('.timer').each(count);  
-            // unbind event not to load scrolsl again
+            // unbind event not to load scrolls again
             $(document).unbind('scroll');
         }
-    });
+    },250));
+
+
   
   
   function count(options) {
