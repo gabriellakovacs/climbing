@@ -20,20 +20,40 @@
     <body>
         <img id="background" src="images/background.jpg"/>
         <div id="foreground">
+
+            <!-- Button trigger modal -->
+            <button type="button" class="menu" data-toggle="modal" data-target="#nav">
+              Menu
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="nav" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Menu</h4>
+                  </div><!-- modal-header -->
+                  <div class="modal-body">
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Spider Club</a></li>
+                            <li><a href="kapcsolat.html">Kapcsolat</a></li>
+                            <li><a href="edzes.html">Edzés</a></li>
+                            <li><a href="tanfolyam.html">Tanfolyam</a></li>
+                            <li><a href="galeria.html">Galéria</a></li> 
+                        </ul>
+                    </nav>
+                  </div><!-- modal-body -->
+                </div><!-- modal-content -->
+              </div><!-- modal-dialog -->
+            </div><!-- modal-fade -->
+
             
             <h1 class="col-md-6 col-md-offset-3" id="indexH1">Spider Club</h1>
             
-            <nav class="container-fluid">
-        
-                    <ul class="row">
-                        <li class="col-sm-2 col-sm-offset-2 col-xs-10 col-xs-offset-1"><a href="kapcsolat.html">Kapcsolat</a></li>
-                        <li class="col-sm-2 col-sm-offset-0 col-xs-10 col-xs-offset-1"><a href="edzes.html">Edzés</a></li>
-                        <li class="col-sm-2 col-sm-offset-0 col-xs-10 col-xs-offset-1"><a href="tanfolyam.html">Tanfolyam</a></li>
-                        <li class="col-sm-2 col-sm-offset-0 col-xs-10 col-xs-offset-1"><a href="galeria.html">Galéria</a></li>
-                        
-                    </ul>
-            </nav>
-        
+            <h2 class="indexh2">A teremről</h2>
+            
             <article>
                 <div class="col-md-6 col-md-offset-3">
                     <p>

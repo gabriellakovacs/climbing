@@ -8,22 +8,16 @@ height: 90vh;
 padding-top: 30vh;
 }
 
-nav  {
-    height: 8vh;
+.indexh2  {
     float: left;
     position: relative;
+    top:13px;
     width: 100%;
-    background: rgba(255, 255, 0, .6);
-    padding-top: 1.5vh;
-    padding-bottom: 1.5vh;
-    
+    background: rgba(70,130,180, .6);
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    color: white;
 }
-
-
-nav ul li{
-    text-align: center;
-}
-
 
 
 article {

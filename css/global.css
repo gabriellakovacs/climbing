@@ -5,16 +5,12 @@ body {
     line-height: 2em;
 }
 
-
-
 #background {
     position: fixed;
     min-width: 100%;
     min-height: 100%;
     margin: 0;
 }
-
-
 
 #foreground {
     position: relative;
