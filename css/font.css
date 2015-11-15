@@ -1,5 +1,6 @@
 @font-face{ 
 	font-family: 'FFF TUSJ';
-	src: url('FFF_tusj.ttf') format('truetype');
-	
+	src: url('FFF_Tusj.woff2') format('woff2'),
+         url('FFF_Tusj.woff') format('woff'),
+         url('FFF_Tusj.ttf') format('truetype');	
 }
